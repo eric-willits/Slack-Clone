@@ -1,0 +1,54 @@
+.sidebaroption {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebaroption:hover {
+    background-color: var(--slack-color-dark);
+}
+
+.sidebaroption__indent {
+    padding: 10px 10px 10px 30px;
+}
+
+.sidebaroption__icon {
+    min-width: 24px;
+    min-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebaroption__icon > .MuiSvgIcon-root {
+    width: 18px;
+    height: 18px;
+}
+
+.sidebaroption__text {
+    padding-left: 10px;
+}
+
+.sidebaroption__addchannel {
+    width: 100%;
+    height: 100%;
+    min-height: 24px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.sidebaroption__arrow {
+    border-radius: 5px;
+}
+
+.sidebaroption__arrow:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

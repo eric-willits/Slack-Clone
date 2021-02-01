@@ -1,0 +1,36 @@
+.message {
+    display: flex;
+    padding: 10px;
+}
+
+.message__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.message__content-header {
+    display: flex;
+    align-items: center;
+}
+
+.message__content-user{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.message__content-timestamp{
+    font-size: 11px;
+    color: grey;
+    padding-left: 5px;
+}
+
+.message__content-message {
+    padding-top: 5px;
+}
+
+.message__content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}

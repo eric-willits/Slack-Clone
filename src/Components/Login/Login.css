@@ -1,0 +1,25 @@
+.login__container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3
+}
+
+.login__card {
+    padding: 100px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 0.1);
+}
+
+.login__card img{
+    width: 100px;
+    object-fit: contain;
+}
+
+.login__card button {
+    margin-top: 25px;
+}
